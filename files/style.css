@@ -1,0 +1,104 @@
+@font-face {
+    font-family:digital;
+    src: url(./digital-7.ttf);
+}                
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:digital;
+    font-family:digital;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    width: 380px;
+    height: 430px;
+    background-color: #272727;
+    border-radius: 9px;
+    box-shadow: 0 0 50px 1px #2c2c2c ;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+ 
+
+}
+.Previuse{
+    
+}
+.container_1{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(48, 46, 46);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+#NumberHead{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+    font-size: 70px;
+    font-weight:400;
+    font-family:digital;
+    box-shadow: 0 0 15px 1px #666565;
+    background-color: #2c2c2c;
+    outline: none;
+    border: none;
+}
+.container_2{
+    width: 100%;
+/* padding:5px */
+
+    
+}
+.btn_row{
+
+display: flex;
+align-items: center;
+justify-content: center;
+/* gap: 5px; */
+}
+.btns{
+    width: 72px;
+    padding: 15px 5px;
+    border: none;
+    border-radius: 1px;
+    color: #bccaca;
+    background:transparent;
+    font-size: 22px;
+    transition: 0.2s ease-in-out;
+
+}
+.btns:hover{
+    background-color: #202020;
+    
+}
+.op{
+    color: #197e00;
+    font-size: 30px;
+}
+#Equal{
+    width: 144px;
+    background: #197e00;
+    border-radius: 2px;
+    color: #fff;
+}
+#DE,#empty,#perce,#div,#sub{
+    color: #23a004;
+}
+
+
